@@ -1,4 +1,6 @@
 #include <stdlib.h> 
+#include  <time.h> 
+#include  <stdio.h> 
 //headers go here, probably standard libraries
 
 //main goes here, add command line arguements for tax and tip
@@ -15,6 +17,8 @@ double pizza 22.35;
 
 
 //calculate tax to be added to meal(meal is chosen randomly)
+//also have to add random object
+srand((unsigned)  time(&t));
 
 //calculate tip to be added(tip is on pre-tax amount)
 

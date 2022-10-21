@@ -1,8 +1,9 @@
+#include <stdlib.h> 
 //headers go here, probably standard libraries
 
-
-
 //main goes here, add command line arguements for tax and tip
+int main(double argTax, double argTip ){ 
+
 
 //store meal costs given from assignment
 //salad,soup, sandwich, pizza.
@@ -17,4 +18,6 @@
 //Display meal cost, tax amount, tip amount, and total bill
 
 //return success
+    return EXIT_SUCCESS;
+}
 

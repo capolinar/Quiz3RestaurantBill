@@ -7,6 +7,12 @@ int main(double argTax, double argTip ){
 
 //store meal costs given from assignment
 //salad,soup, sandwich, pizza.
+double salad = 9.95;
+double soup = 4.55
+double sandwich = 13.25;
+double pizza 22.35;
+
+
 
 //calculate tax to be added to meal(meal is chosen randomly)
 

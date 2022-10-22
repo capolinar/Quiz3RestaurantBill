@@ -4,10 +4,14 @@
 //headers go here, probably standard libraries
 
 //main goes here, add command line arguements for tax and tip
-int main(double argTax, double argTip ){ 
+int main(int argc, char *argv[] ){ 
 
-    double tax = argTax;
-    double tip = argTip;
+    printf("arguement count: %d\n", argc);
+
+    double tax;
+    double tip;
+    sscanf(argv[1],"%lf",&tax);
+    sscanf(argv[2],"%lf",&tip);
 
 
     //store meal costs given from assignment

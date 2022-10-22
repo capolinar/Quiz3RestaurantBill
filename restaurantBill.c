@@ -47,7 +47,7 @@ int main(int argc, char *argv[] ){
     {
         meal = pizza;
     }
-    double cTax = meal * tax - meal;
+    double cTax = meal * tax;
 
     //display message for test
     /* makes sure arguements and inputs are correct
@@ -58,7 +58,7 @@ int main(int argc, char *argv[] ){
 
 
     //calculate tip to be added(tip is on pre-tax amount)
-    double cTip = meal * tip - tip;
+    double cTip = meal * tip;
 
     //calculate total cost including everything
     double total = meal + tax + tip;

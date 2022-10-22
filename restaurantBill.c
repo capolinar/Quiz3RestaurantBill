@@ -12,6 +12,8 @@ int main(int argc, char *argv[] ){
     double tip;
     sscanf(argv[1],"%lf",&tax);
     sscanf(argv[2],"%lf",&tip);
+    tax /= 100;
+    tip /= 100;//converting to decimals
 
 
     //store meal costs given from assignment

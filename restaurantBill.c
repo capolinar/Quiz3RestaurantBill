@@ -61,13 +61,13 @@ int main(int argc, char *argv[] ){
     double cTip = meal * tip;
 
     //calculate total cost including everything
-    double total = meal + tax + tip;
+    double total = meal + cTax + cTip;
 
 
     //Display meal cost, tax amount, tip amount, and total bill
     printf("\nMeal cost: %.2f\n", meal);
-    printf("Tax: %.2f\n", tax);
-    printf("Tip: %.2f\n", tip);
+    printf("Tax Amount: %.2f\n", cTax);
+    printf("Tip Amount: %.2f\n", cTip);
     printf("Total: %.2f\n", total);
 
     //return success
